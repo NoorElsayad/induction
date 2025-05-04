@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Electromagnetic Induction</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f9ff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #004080;
+    }
+    p {
+      line-height: 1.8;
+      font-size: 17px;
+    }
+    .equation {
+      background-color: #e0ebf5;
+      display: inline-block;
+      padding: 10px 20px;
+      font-weight: bold;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #eeeeee;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+    a {
+      color: #004080;
+      font-weight: bold;
+      display: inline-block;
+      margin: 15px 0;
+    }
+    iframe {
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+    .quiz {
+      background-color: #f0f8ff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    .quiz button {
+      background-color: #004080;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .quiz button:hover {
+      background-color: #0059b3;
+    }
+    .rating {
+      margin-top: 20px;
+    }
+    .rating input {
+      display: none;
+    }
+    .rating label {
+      font-size: 30px;
+      color: #ccc;
+      cursor: pointer;
+    }
+    .rating input:checked ~ label {
+      color: #f5b301;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔁 Electromagnetic Induction</h1>
+    <p>Understanding how changing magnetic fields create electricity</p>
+  </header>
+
+  <section>
+    <h2>What is Electromagnetic Induction?</h2>
+    <p>
+      Electromagnetic induction is the process of generating electric current from a changing magnetic field.
+      It was discovered by Michael Faraday in 1831. It's the principle behind many everyday devices such as electric generators and transformers.
+    </p>
+    <a href="https://content.alefed.com/data/ccl/content/33/c2/b9/e7/122983/source/LVF3V5LP27UIU7FQM2LCAVDKRVA/Explore_slide_04.gif" target="_blank">
+      ➤ Click here to view Faraday's Law Diagram
+    </a>
+  </section>
+
+  <section>
+    <h2>Oersted's Experiment 🧲</h2>
+    <p>
+      In 1820, Hans Christian Oersted discovered that an electric current in a wire creates a magnetic field around it. 
+      This showed that <strong>electricity can create magnetism</strong>.
+    </p>
+    <p>
+      But later, Faraday and others found the <strong>opposite is also true</strong>: a changing magnetic field can create electricity! 
+      This is what electromagnetic induction is all about — the two phenomena are connected.
+    </p>
+    <a href="https://content.alefed.com/data/ccl/content/fa/2f/5b/29/121174/source/LKXM63PO3MRUELKE5FF44LYERFE_LKOBX5A7NW3AE7KETR2L5KYPSPY/PH10_MLO_343_IMG_034.jpg" target="_blank">
+      ➤ Click here to view Oersted's Experiment Picture
+    </a>
+  </section>
+
+  <section>
+    <h2>What is EMF?</h2>
+    <p>
+      EMF stands for <strong>Electromotive Force</strong>, but it doesn’t mean a real "force" — it’s actually a voltage.
+      So, EMF is very similar to potential difference (<strong>V</strong>). It tells us how much electrical energy is being pushed through a circuit.
+    </p>
+    <div class="equation">
+      EMF = B × L × V × sin(θ)
+    </div>
+    <p>
+      Where:<br>
+      B = magnetic field strength (Tesla)<br>
+      L = length of the wire in the magnetic field (meters)<br>
+      V = velocity (speed of the wire)<br>
+      θ = angle between the wire and the field lines
+    </p>
+  </section>
+
+  <section>
+    <h2>Right-Hand Rule ✋</h2>
+    <p>
+      To find the direction of the induced current, use the <strong>right-hand rule</strong> for generators:
+    </p>
+    <p>
+      ➤ Point your thumb in the direction of the wire's motion (velocity).<br>
+      ➤ Point your fingers in the direction of the magnetic field.<br>
+      ➤ Your palm will face the direction of the induced current (conventional current).
+    </p>
+    <a href="https://content.alefed.com/data/ccl/content/f4/6e/f8/1f/123000/source/LGEWQUPCE5NMUBBKY73JBNSSU3Q_LIMEUYWBGXS4EJBUF2YTGBTVWLA/PH10_MLO_345_IMG_015a.jpg" target="_blank">
+      ➤ Click here to view Right-Hand Rule Picture
+    </a>
+  </section>
+
+  <section>
+    <h2>Real-Life Application: Microphones 🎤</h2>
+    <p>
+      Microphones work based on the principle of electromagnetic induction. In a typical microphone, there is a diaphragm that vibrates in response to sound waves. 
+      Attached to this diaphragm is a coil of wire that moves within a magnetic field. As the coil moves, it cuts through the magnetic lines of force, inducing an electric current.
+      This current is then sent to an amplifier, which converts the vibrations into an audio signal. This is how sound is transformed into an electrical signal in microphones.
+    </p>
+  </section>
+
+  <section>
+    <h2>Watch This Explainer Video 🎥</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2tMRPuU78GA" 
+    title="Electromagnetic Induction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+  </section>
+
+  <section class="quiz">
+    <h2>Quiz Time! 📝</h2>
+    <p>Let's test your understanding of electromagnetic induction!</p>
+    <form id="quizForm">
+      <label for="q1">1. Who discovered electromagnetic induction?</label><br>
+      <input type="radio" name="q1" value="Michael Faraday"> Michael Faraday<br>
+      <input type="radio" name="q1" value="Hans Oersted"> Hans Oersted<br><br>
+
+      <label for="q2">2. What is the principle behind microphones?</label><br>
+      <input type="radio" name="q2" value="Electromagnetic Induction"> Electromagnetic Induction<br>
+      <input type="radio" name="q2" value="Electromagnetism"> Electromagnetism<br><br>
+
+      <label for="q3">3. What does EMF stand for?</label><br>
+      <input type="radio" name="q3" value="Electromagnetic Field"> Electromagnetic Field<br>
+      <input type="radio" name="q3" value="Electromotive Force"> Electromotive Force<br><br>
+
+      <button type="button" onclick="checkQuiz()">Submit</button>
+    </form>
+    <p id="quizResult"></p>
+  </section>
+
+  <section>
+    <h2>Contact Information 📧</h2>
+    <p>If you have any questions or feedback, feel free to reach out:</p>
+    <p>Email: <a href="mailto:stuF20190016586@ese.gov.ae">stuF20190016586@ese.gov.ae</a></p>
+  </section>
+
+  <section>
+    <h2>Website Evaluation ⭐</h2>
+    <p>Please rate this website:</p>
+    <div class="rating">
+      <input type="radio" id="star1" name="rating" value="1">
+      <label for="star1">★</label>
+      <input type="radio" id="star2" name="rating" value="2">
+      <label for="star2">★</label>
+      <input type="radio" id="star3" name="rating" value="3">
+      <label for="star3">★</label>
+      <input type="radio" id="star4" name="rating" value="4">
+      <label for="star4">★</label>
+      <input type="radio" id="star5" name="rating" value="5">
+      <label for="star5">★</label>
+    </div>
+  </section>
+
+  <footer>
+    Created by Noor | Grade 10 | 2025
+  </footer>
+
+  <script>
+    function checkQuiz() {
+      var correctAnswers = 0;
+      var q1 = document.querySelector('input[name="q1"]:checked');
+      var q2 = document.querySelector('input[name="q2"]:checked');
+      var q3 = document.querySelector('input[name="q3"]:checked');
+
+      if (q1 && q1.value == "Michael Faraday") correctAnswers++;
+      if (q2 && q2.value == "Electromagnetic Induction") correctAnswers++;
+      if (q3 && q3.value == "Electromotive Force") correctAnswers++;
+
+      var result = document.getElementById("quizResult");
+      result.textContent = "You got " + correctAnswers + " out of 3 correct!";
+    }
+  </script>
+
+</body>
+</html>
+
